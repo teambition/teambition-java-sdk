@@ -18,8 +18,8 @@ public class TestController {
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public void hello() {
-        String appId = "5d83377eb013170001388c8c";
-        String appSecret = "N6WfzlMBOdIKTnoUaLFVaDoV9CGM087a";
+        String appId = "*";
+        String appSecret = "*";
 
         String apiHost = "https://www.teambitionapis.com/tbs";
         AuthContext.setAppId(appId);
